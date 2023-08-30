@@ -169,20 +169,59 @@ export default function Home() {
       <div className=" flex flex-col items-center justify-center mt-14">
         <p className=" text-3xl text-white font-semibold">Projetos</p>
 
-        <div className=" border border-sky-300 space-y-2 p-6 mt-8">
-          <h2>Aplicação Web onde lista os filmes mais bem avaliados</h2>
-          <p className="text-gray-400">
-            Este projeto usa a biblioteca React para consumir uma lista de
-            filmes mais bem avaliados da API MovieDB. No mesmo pode ser visto os
-            detalhes do filme.
-          </p>
-          <a
-            className=" text-sky-400"
-            href="https://github.com/NaironCarneiro/Project_React_API_Filmes"
-            target="_blank"
-          >
-            Ver mais
-          </a>
+        <div className=" flex flex-col items-center justify-between gap-10 mt-3 sm:flex-row">
+          <div className=" border border-sky-300 space-y-2 p-6 mt-8 w-2/6 h-60">
+            <h2>Aplicação que lista filmes mais bem avaliados</h2>
+            <p className="text-gray-400">
+              Este projeto usa a biblioteca React para consumir uma lista de
+              filmes mais bem avaliados da API MovieDB, mostranto também seus
+              detalhes.
+            </p>
+            <div className="flex pt-4 ">
+              <a
+                className=" text-sky-400 mb-0"
+                href="https://github.com/NaironCarneiro/Project_React_API_Filmes"
+                target="_blank"
+              >
+                Ver repositório
+              </a>
+            </div>
+          </div>
+          <div className=" border border-sky-300 space-y-2 p-6 mt-8 w-2/6 h-60">
+            <h2>Landing page empresa Cocais Dev</h2>
+            <p className="text-gray-400 ">
+              Esta landing page foi criada para apresentação dos serviços
+              prestados pela empresa Cocais Dev. A base do projeto é construido
+              usando NextJS.
+            </p>
+            <div className="flex pt-10 ">
+              <a
+                className=" text-sky-400"
+                href="https://github.com/Cocais-Dev/cocaisdev.front"
+                target="_blank"
+              >
+                Ver repositório
+              </a>
+            </div>
+          </div>
+
+          <div className=" border border-sky-300 space-y-2 p-6 mt-8 w-2/6 h-60">
+            <h2>Projeto para busca de Pokémons</h2>
+            <p className="text-gray-400">
+              Esta aplicação busca um Pokemóm pelo seu nome. Quando é realizada
+              a busca, retorna a imagem do Pokemóm correspondente. Para isso é
+              utilizado a API Pokedéx.
+            </p>
+            <div className="flex pt-4  ">
+              <a
+                className=" text-sky-400"
+                href="https://github.com/NaironCarneiro/SearchPokedex"
+                target="_blank"
+              >
+                Ver repositório
+              </a>
+            </div>
+          </div>
         </div>
       </div>
 
